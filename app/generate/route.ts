@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 
     if (!result.success) {
       return new Response(
-        "Too many uploads in 1 day. Please try again in a 24 hours.",
+        "Muitos uploads em 1 dia. Por favor, tente novamente em 24 horas.",
         {
           status: 429,
           headers: {

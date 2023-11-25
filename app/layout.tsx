@@ -2,10 +2,10 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
-let title = "Dream Room Generator";
-let description = "Generate your dream room in seconds.";
+let title = "Arquiteto Virtual IA";
+let description = "Gere seus projetos de arquitetura de forma simples e rápida";
 let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
-let sitename = "roomGPT.io";
+let sitename = "Arquiteo Virtual IA";
 
 export const metadata: Metadata = {
   title,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description,
     url: "https://roomgpt-demo.vercel.app",
     siteName: sitename,
-    locale: "en_US",
+    locale: "pt_BR",
     type: "website",
   },
   twitter: {
@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body className="bg-[#17181C] text-white">
         {children}
         <Analytics />

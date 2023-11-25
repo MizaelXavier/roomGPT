@@ -104,7 +104,7 @@ export default function DreamPage() {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-blue-600">dream</span> room
+          Crie seu <span className="text-blue-600">ambiente</span> dos sonhos.
         </h1>
         <ResizablePanel>
           <AnimatePresence mode="wait">
@@ -120,7 +120,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room theme.
+                        Escolha o tema do seu ambiente.
                       </p>
                     </div>
                     <DropDown
@@ -140,7 +140,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room type.
+                        Escolha qual é o seu ambiente.
                       </p>
                     </div>
                     <DropDown
@@ -158,7 +158,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Upload a picture of your room.
+                        Envie uma foto do seu ambiente.
                       </p>
                     </div>
                   </div>
@@ -253,7 +253,7 @@ export default function DreamPage() {
                     }}
                     className="bg-blue-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-blue-500/80 transition"
                   >
-                    Generate New Room
+                    Gere um novo ambiente
                   </button>
                 )}
                 {restoredLoaded && (
@@ -266,7 +266,7 @@ export default function DreamPage() {
                     }}
                     className="bg-white rounded-full text-black border font-medium px-4 py-2 mt-8 hover:bg-gray-100 transition"
                   >
-                    Download Generated Room
+                    Baixe a imagem gerada
                   </button>
                 )}
               </div>
